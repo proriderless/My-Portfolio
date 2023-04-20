@@ -4,7 +4,7 @@ import HeroComp from "../components/Hero";
 import Introduction from "../components/Introduction";
 import Footer from "../components/Footer";
 import SkillCarousel from "../components/SkillCarousel";
-import FeaturedProjectTable from "../components/FeaturedProjectTable";
+//import FeaturedProjectTable from "../components/FeaturedProjectTable";
 import ProjectHeroBanner from "../components/ProjectHero";
 
 function Home() {

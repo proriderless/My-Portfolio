@@ -29,25 +29,51 @@ function NavBar() {
             </a>
             <ul class="p-2 bg-base-100 z-50">
               <li>
-                <a href="https://rpgmaker.net/games/5874/"
-                    target="_blank">Black Galax: Revert</a>
+                <a
+                  href="https://rpgmaker.net/games/5874/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Black Galax: Revert
+                </a>
               </li>
-              <li href="https://rpgmaker.net/games/11161/"
-                    target="_blank">
-                <a>Black Galax: Rewrite</a>
+              <li>
+                <a
+                  href="https://rpgmaker.net/games/11161/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Black Galax: Rewrite
+                </a>
               </li>
-              <li href="https://rpgmaker.net/games/6536/"
-                    target="_blank">
-                <a>Black Galax: Blood Legacy</a>
+              <li>
+                <a
+                  href="https://rpgmaker.net/games/6536/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Black Galax: Blood Legacy
+                </a>
               </li>
-              <li href="https://rpgmaker.net/games/6025/"
-                    target="_blank">
-                <a>Infinite Loop</a>
+              <li>
+                <a
+                  href="https://rpgmaker.net/games/6025/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Infinite Loop
+                </a>
               </li>
             </ul>
           </li>
           <li>
-            <a href="https://soundcloud.com/razerpg" target="_blank">Music</a>
+            <a
+              href="https://soundcloud.com/razerpg"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Music
+            </a>
           </li>
         </ul>
       </div>
