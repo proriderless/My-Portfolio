@@ -4,7 +4,7 @@ import introImage from "../assets/img/version-control.png";
 function Introduction() {
   return (
     <div class="w-100 px-4 py-4 sm:py-12 sm:px-6 lg:py-4 lg:px-8 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
         <div class="mr-10">
           <img src={introImage} />
         </div>

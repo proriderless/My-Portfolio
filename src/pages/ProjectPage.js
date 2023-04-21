@@ -12,7 +12,7 @@ function ProjectPage() {
       <NavBar />
       <section class="bg-gray-900 text-white">
         <div class="w-100 px-4 py-4 sm:py-12 sm:px-6 lg:py-4 lg:px-8 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-          <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
               <img alt="Black Galax" src="https://rpgmaker.net/media/content/games/11161/screenshots/BetYourLife.PNG" />
             </div>
@@ -55,7 +55,7 @@ function ProjectPage() {
             </div>
           </div>
           {/* Mitra Scheduler */}
-          <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
               <img alt="Mitra" src={mitraImage} />
             </div>
@@ -110,7 +110,7 @@ function ProjectPage() {
             </div>
           </div>
           {/* Geographically Weighted */}
-          <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
               <img alt="GWR" src={GWR} />
             </div>
@@ -140,7 +140,7 @@ function ProjectPage() {
             </div>
           </div>
           {/* Patent Web Builder */}
-          <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
               <img alt="Patent web application" src={patentWeb} />
             </div>
@@ -158,7 +158,7 @@ function ProjectPage() {
             </div>
           </div>
           {/* AutoInspire */}
-          <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
               <img alt="Autoinspire" src={autoInspire} />
             </div>

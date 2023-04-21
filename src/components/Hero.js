@@ -15,10 +15,10 @@ function HeroComp() {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
+          //minHeight: 200.0,
+          //minWidth: 200.0,
           scale: 1.0,
-          scaleMobile: 1.0,
+          scaleMobile: 0.5,
           color: 0x314cfa,
           backgroundColor: 0xf0f0f,
         })
@@ -33,7 +33,7 @@ function HeroComp() {
     <div
     ref={myRef}
     >
-      <div class="hero min-h-screen w-100 px-4 py-8 sm:py-12 sm:px-6 lr:py-16 lg:px-8">
+      <div class="hero min-h-screen w-full px-4 py-8 sm:py-12 sm:px-6 lr:py-16 lg:px-8">
       <div class="hero-content flex text-center m-auto m-auto">
         <div class="inline-flex items-center justify-center text-center">
           <picture>
@@ -48,11 +48,11 @@ function HeroComp() {
               height="128"
             />
           </picture>
-          <div class="pl-10">
-            <h1 class="bg-gradient-to-r from-red-300 via-purple-300 to-pink-300 bg-clip-text text-9xl bg-gradient-to-r font-extrabold text-transparent sm:text-5xl">
+          <div class="pl-10 text-center">
+            <h1 class="bg-gradient-to-r from-red-300 via-purple-300 to-pink-300 bg-clip-text text-9xl bg-gradient-to-r font-extrabold text-transparent sm:text-3xl text-center">
               Hi There!
             </h1>
-            <h3 class="py-6 text-white">Welcome to my little corner of the web!</h3>
+            <h3 class="py-6 text-white text-center">Welcome to my little corner of the web!</h3>
           </div>
         </div>
       </div>

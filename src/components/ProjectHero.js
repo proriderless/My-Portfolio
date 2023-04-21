@@ -5,7 +5,7 @@ import autoInspire from "../assets/img/autoinspire.png";
 function ProjectHeroBanner(props) {
   return (
     <div class="w-100 px-4 py-4 sm:py-12 sm:px-6 lg:py-4 lg:px-8 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
         <div class="mr-10">
           <img alt="Black Galax image" src="https://rpgmaker.net/media/content/games/11161/screenshots/BetYourLife.PNG" />
         </div>
@@ -48,7 +48,7 @@ function ProjectHeroBanner(props) {
         </div>
       </div>
       {/* Mitra Scheduler */}
-      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
         <div class="mr-10">
           <img alt="Software image" src={mitraImage} />
         </div>
@@ -95,7 +95,7 @@ function ProjectHeroBanner(props) {
         </div>
       </div>
       {/* AutoInspire */}
-      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-2 gap-12 place-self-center">
+      <div class="hero-content flex-col lg:flex-row-reverse grid grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
         <div class="mr-10">
           <img src={autoInspire} />
         </div>
