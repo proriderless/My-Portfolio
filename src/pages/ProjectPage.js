@@ -127,7 +127,8 @@ function ProjectPage() {
                     using statistical methods such as efficient frontier with sortino/sharpe ratio 
                     which balances the risk and reward for optimal portfolio allocation.<br/><br/>
                     It also contains sentimental analysis for news headlines and technical 
-                    analysis for analyzing a single stock.
+                    analysis for analyzing a single stock.<br/><br/>
+                    The app hosted on Streamlit is a bit unstable, due to heavy RAM requirements.
                 <br />
               </p>
               <div class="mt-4 text-center">
@@ -261,6 +262,22 @@ function ProjectPage() {
                     sequence of chapters. Therefore, we've used Kernel Change
                     Point Detection using Cosine Similarity as our Cost Function
                     to detect segments.
+                  </p>
+                </div>
+              </a>
+            </div>
+
+            <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
+              <a class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
+                <div class="mt-0">
+                  <h3 class="text-lg font-bold sm:text-xl">
+                    Dynamic Form Creator Dashboard + PDF
+                  </h3>
+
+                  <p class="mt-2 text-sm text-white-500">
+                    Using a combination of React.js and Java backend, we have created a dashboard
+                    that allows the user to create a dynamic form systems that can be exported as
+                    a PDF for the user to download.
                   </p>
                 </div>
               </a>
