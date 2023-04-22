@@ -10,7 +10,7 @@ import ProjectHeroBanner from "../components/ProjectHero";
 function Home() {
   return (
     <>
-      <section class="bg-gray-900">
+      <section class="bg-gray-900 text-white">
         <NavBar />
         <div class="bg-gray-900 bg-opacity-80">
           <HeroComp />
