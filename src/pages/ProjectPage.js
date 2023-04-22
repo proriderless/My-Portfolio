@@ -6,12 +6,14 @@ import autoInspire from "../assets/img/autoinspire.png";
 import patentWeb from "../assets/img/PatentWebVisualization.png";
 import GWR from "../assets/img/GWR.PNG";
 import stockEvaluator from "../assets/img/stockevaluator.png";
+import DrawerLayout from "../components/DrawerLayout";
 
 function ProjectPage() {
   return (
     <>
-      <NavBar />
-      <section class="bg-gray-900 text-white">
+      <DrawerLayout>
+
+      <section class="bg-black text-white">
         <div class="w-100 px-4 py-4 sm:py-12 sm:px-6 lg:py-4 lg:px-8 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
@@ -40,7 +42,7 @@ function ProjectPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                       Black Galax: Rewrite
                     </span>
                   </a>
@@ -50,7 +52,7 @@ function ProjectPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                       Black Galax: Revert
                     </span>
                   </a>
@@ -95,7 +97,7 @@ function ProjectPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                       Mitra (Main) - Open Source
                     </span>
                   </a>
@@ -105,7 +107,7 @@ function ProjectPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                       Mitra-Scheduler (Milly Reiner) - PRIVATE
                     </span>
                   </a>
@@ -138,7 +140,7 @@ function ProjectPage() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                  <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                     Github
                   </span>
                 </a>
@@ -148,7 +150,7 @@ function ProjectPage() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                  <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                     Click to access Streamlit
                   </span>
                 </a>
@@ -183,7 +185,7 @@ function ProjectPage() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                  <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                     Click to access
                   </span>
                 </a>
@@ -248,7 +250,7 @@ function ProjectPage() {
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 grid-flow-row">
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
-              <a class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
+              <a class="glass block rounded-xl bg-black p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
                   <h3 class="text-lg font-bold sm:text-xl">
                     Webinar Video Auto-Chaptering System (FYP)
@@ -268,7 +270,7 @@ function ProjectPage() {
             </div>
 
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
-              <a class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
+              <a class="glass block rounded-xl bg-black p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
                   <h3 class="text-lg font-bold sm:text-xl">
                     Dynamic Form Creator Dashboard + PDF
@@ -284,7 +286,7 @@ function ProjectPage() {
             </div>
 
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
-              <div class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
+              <div class="glass block rounded-xl bg-black p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
                   <h3 class="text-lg font-bold sm:text-xl">Infinite Loop</h3>
 
@@ -296,7 +298,7 @@ function ProjectPage() {
               </div>
             </div>
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
-              <div class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
+              <div class="glass block rounded-xl bg-black p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
                   <h3 class="text-lg font-bold sm:text-xl">
                     Black Galax: Blood Legacy
@@ -312,6 +314,7 @@ function ProjectPage() {
         </div>
       </section>
       <Footer />
+      </DrawerLayout>
     </>
   );
 }

@@ -11,9 +11,10 @@ import DrawerLayout from "../components/DrawerLayout";
 function Home() {
   return (
     <>
-      <section class="bg-gray-900 text-white">
+    {/* original: bg-gray-900 */}
+      <section class="bg-black text-white">
         <DrawerLayout>
-        <div class="bg-gray-900 bg-opacity-80">
+        <div class="bg-black bg-opacity-80">
           <HeroComp />
           <Introduction />
           <SkillCarousel />

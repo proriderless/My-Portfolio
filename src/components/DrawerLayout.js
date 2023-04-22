@@ -24,7 +24,7 @@ const DrawerLayout = ({ children }) => {
           // add a onClick handler here to close the drawer
           onClick={() => setOpen(false)}
         ></label>
-        <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
+        <ul class="menu p-4 overflow-y-auto w-80 bg-black">
           <li>
             <a href={`/`}>Home</a>
           </li>
@@ -45,7 +45,7 @@ const DrawerLayout = ({ children }) => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul class="p-2 bg-purple-500 z-50 dropdown-content">
+            <ul class="p-2 bg-gray-900 z-50 dropdown-content">
               <li>
                 <a
                   href="https://rpgmaker.net/games/5874/"

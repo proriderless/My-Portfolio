@@ -7,7 +7,7 @@ function NavBar() {
   const toggleDrawer = () => setOpen((prev) => !prev);
 
   return (
-    <div class="navbar w-100 bg-base-100 bg-opacity-100 sticky top-0 z-50">
+    <div class="navbar w-100 text-white bg-black bg-opacity-100 sticky top-0 z-50">
       <div class="flex-1">
         {/* <a class="btn btn-ghost normal-case text-xl">daisyUI</a> */}
       </div>

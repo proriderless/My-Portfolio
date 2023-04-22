@@ -19,8 +19,10 @@ function HeroComp() {
           //minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 0.5,
-          color: 0x314cfa,
-          backgroundColor: 0xf0f0f,
+          color: 0x0,
+          backgroundColor: 0x0,
+          //color: 0x314cfa,
+          //backgroundColor: 0xf0f0f,
         })
       );
     }

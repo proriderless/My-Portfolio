@@ -29,7 +29,7 @@ function ProjectHeroBanner(props) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                   Black Galax: Rewrite
                 </span>
               </a>
@@ -39,7 +39,7 @@ function ProjectHeroBanner(props) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                 Black Galax: Revert
                 </span>
               </a>
@@ -76,7 +76,7 @@ function ProjectHeroBanner(props) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                   Mitra (Main) - Open Source
                 </span>
               </a>
@@ -86,7 +86,7 @@ function ProjectHeroBanner(props) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                 Mitra-Scheduler (Milly Reiner) - PRIVATE
                 </span>
               </a>
