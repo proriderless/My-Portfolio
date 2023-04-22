@@ -6,12 +6,13 @@ import Footer from "../components/Footer";
 import SkillCarousel from "../components/SkillCarousel";
 //import FeaturedProjectTable from "../components/FeaturedProjectTable";
 import ProjectHeroBanner from "../components/ProjectHero";
+import DrawerLayout from "../components/DrawerLayout";
 
 function Home() {
   return (
     <>
       <section class="bg-gray-900 text-white">
-        <NavBar />
+        <DrawerLayout>
         <div class="bg-gray-900 bg-opacity-80">
           <HeroComp />
           <Introduction />
@@ -36,6 +37,8 @@ function Home() {
           <ProjectHeroBanner />
           <Footer />
         </div>
+        </DrawerLayout>
+
       </section>
     </>
   );

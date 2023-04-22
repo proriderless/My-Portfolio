@@ -1,41 +1,37 @@
 import React from "react";
 import { useSessionStorage } from "usehooks-ts";
+import NavBar from "./NavBar";
 
-function NavBar() {
-
-  const [, setOpen] = useSessionStorage("drawer", false);
-  const toggleDrawer = () => setOpen((prev) => !prev);
-
+const DrawerLayout = ({ children }) => {
+  //initialize state here. we use a key and a default state
+  const [open, setOpen] = useSessionStorage("drawer", false);
   return (
-    <div class="navbar w-100 bg-base-100 bg-opacity-100 sticky top-0 z-50">
-      <div class="flex-1">
-        {/* <a class="btn btn-ghost normal-case text-xl">daisyUI</a> */}
+    <div className="drawer">
+      <input
+        id="app-drawer"
+        type="checkbox"
+        className="drawer-toggle"
+        // checked property will now reflect our open state
+        checked={open}
+      />
+      <div className="drawer-content flex flex-col">
+        <NavBar />
+        {children}
       </div>
-      <div className="flex-none lg:hidden items-start">
-        <label className="btn btn-square btn-ghost" onClick={toggleDrawer}>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            className="inline-block w-6 h-6 stroke-current"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M4 6h16M4 12h16M4 18h16"
-            ></path>
-          </svg>
-        </label>
-      </div>
-      <div class="flex-none hidden lg:block">
-        <ul class="menu menu-horizontal px-5">
+      <div className="drawer-side align-middle">
+        <label
+          className="drawer-overlay "
+          // add a onClick handler here to close the drawer
+          onClick={() => setOpen(false)}
+        ></label>
+        <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
           <li>
             <a href={`/`}>Home</a>
           </li>
           <li>
             <a href={`/projects`}>Personal Projects</a>
           </li>
+          <div class="dropdown dropdown-hover">
           <li tabindex="0">
             <a>
               My Games
@@ -49,7 +45,7 @@ function NavBar() {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul class="p-2 bg-base-100 z-50">
+            <ul class="p-2 bg-purple-500 z-50 dropdown-content">
               <li>
                 <a
                   href="https://rpgmaker.net/games/5874/"
@@ -88,6 +84,7 @@ function NavBar() {
               </li>
             </ul>
           </li>
+          </div>
           <li>
             <a
               href="https://soundcloud.com/razerpg"
@@ -101,6 +98,6 @@ function NavBar() {
       </div>
     </div>
   );
-}
+};
 
-export default NavBar;
+export default DrawerLayout;
