@@ -24,7 +24,7 @@ const DrawerLayout = ({ children }) => {
           // add a onClick handler here to close the drawer
           onClick={() => setOpen(false)}
         ></label>
-        <ul class="menu p-4 overflow-y-auto w-80 bg-black">
+        <ul class="menu p-4 overflow-y-auto w-80 bg-black text-white">
           <li>
             <a href={`/`}>Home</a>
           </li>

@@ -30,7 +30,7 @@ function Home() {
               class="inline-block rounded bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
               href="/projects"
             >
-              <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+              <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
                 Click here if you're interested to see more!
               </span>
             </a>
