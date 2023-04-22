@@ -49,7 +49,7 @@ function HeroComp() {
             />
           </picture>
           <div class="pl-10 text-center">
-            <h1 class="bg-gradient-to-r from-red-300 via-purple-300 to-pink-300 bg-clip-text text-9xl bg-gradient-to-r font-extrabold text-transparent sm:text-3xl text-center">
+            <h1 class="bg-gradient-to-r from-red-300 via-purple-300 to-pink-300 bg-clip-text text-5xl bg-gradient-to-r font-extrabold text-transparent text-center">
               Hi There!
             </h1>
             <h3 class="py-6 text-white text-center">Welcome to my little corner of the web!</h3>
