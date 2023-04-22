@@ -5,6 +5,7 @@ import mitraImage from "../assets/img/mitra.png";
 import autoInspire from "../assets/img/autoinspire.png";
 import patentWeb from "../assets/img/PatentWebVisualization.png";
 import GWR from "../assets/img/GWR.PNG";
+import stockEvaluator from "../assets/img/stockevaluator.png";
 
 function ProjectPage() {
   return (
@@ -14,7 +15,10 @@ function ProjectPage() {
         <div class="w-100 px-4 py-4 sm:py-12 sm:px-6 lg:py-4 lg:px-8 mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
           <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
-              <img alt="Black Galax" src="https://rpgmaker.net/media/content/games/11161/screenshots/BetYourLife.PNG" />
+              <img
+                alt="Black Galax"
+                src="https://rpgmaker.net/media/content/games/11161/screenshots/BetYourLife.PNG"
+              />
             </div>
             {/* Black Galax Game */}
             <div>
@@ -112,6 +116,47 @@ function ProjectPage() {
           {/* Geographically Weighted */}
           <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
             <div class="mr-10">
+              <img alt="Stock Evaluator" src={stockEvaluator} />
+            </div>
+            <div>
+              <h1 class="bg-gradient-to-r from-green-300 via-green-500 to-red-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-3xl">
+                Stock Sentiment Prediction and Portfolio Optimization
+              </h1>
+              <p class="py-6">
+                    It's an app built using Python that allows the user to evaluate their portfolio
+                    using statistical methods such as efficient frontier with sortino/sharpe ratio 
+                    which balances the risk and reward for optimal portfolio allocation.<br/><br/>
+                    It also contains sentimental analysis for news headlines and technical 
+                    analysis for analyzing a single stock.
+                <br />
+              </p>
+              <div class="mt-4 text-center">
+              <a
+                  class="mr-5 inline-block rounded bg-gradient-to-r from-green-300 via-green-500 to-red-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+                  href="https://github.com/wyt05/portfolio_evaluator_app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    Github
+                  </span>
+                </a>
+                <a
+                  class="mr-5 inline-block rounded bg-gradient-to-r from-green-300 via-green-500 to-red-200 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+                  href="https://wyt05-portfolio-evaluator-app-app-ahz6cn.streamlit.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    Click to access Streamlit
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Geographically Weighted */}
+          <div class="hero-content flex-col lg:flex-row-reverse grid sm:grid-cols-1 md:grid-cols-2 gap-12 place-self-center">
+            <div class="mr-10">
               <img alt="GWR" src={GWR} />
             </div>
             <div>
@@ -119,24 +164,29 @@ function ProjectPage() {
                 Geographically-weigted Regression Model for Hedonic HDB Pricing
               </h1>
               <p class="py-6">
-                An app built using Shiny package in R to create the interface for EDA and regression analysis.<br />
-                <br/>Unlike typical linear regression methods, our model takes into account spatial heterogenity
-                and the effects different neighbourhoods can have on the proximity of important locations
+                An app built using Shiny package in R to create the interface
+                for EDA and regression analysis.
+                <br />
+                <br />
+                Unlike typical linear regression methods, our model takes into
+                account spatial heterogenity and the effects different
+                neighbourhoods can have on the proximity of important locations
                 which increases the accuracy of our model to a 0.94 R2 score.
                 <br />
               </p>
               <div class="mt-4 text-center">
-                  <a
-                    class="mr-5 inline-block rounded bg-gradient-to-r from-red-300 via-red-500 to-red-600 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
-                    href="https://github.com/wyt05/GeoSpatialProject"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
-                      Click to access
-                    </span>
-                  </a>
-                </div>
+                
+                <a
+                  class="mr-5 inline-block rounded bg-gradient-to-r from-red-300 via-red-500 to-red-600 p-[2px] hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+                  href="https://github.com/wyt05/GeoSpatialProject"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="block rounded-sm bg-gray-900 px-8 py-3 text-sm font-medium hover:bg-transparent">
+                    Click to access
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
           {/* Patent Web Builder */}
@@ -149,11 +199,13 @@ function ProjectPage() {
                 Patent Web Visualization Dashboard
               </h1>
               <p class="py-6">
-                A full-stack application built using MEVN stack (MongoDB, Express, Vue.js, Node.js) that
-                allows users to easily catch a glimpse of all the data they need.<br />
-                <br />Comes in-built with various filters, allowing the user to drill down to only the
-                information they wish to view on the dashboard.
-                
+                A full-stack application built using MEVN stack (MongoDB,
+                Express, Vue.js, Node.js) that allows users to easily catch a
+                glimpse of all the data they need.
+                <br />
+                <br />
+                Comes in-built with various filters, allowing the user to drill
+                down to only the information they wish to view on the dashboard.
               </p>
             </div>
           </div>
@@ -194,8 +246,6 @@ function ProjectPage() {
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 grid-flow-row">
-            
-
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
               <a class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
@@ -204,40 +254,26 @@ function ProjectPage() {
                   </h3>
 
                   <p class="mt-2 text-sm text-white-500">
-                    Using a combination of intuitive ML techniques to automatically identify segments in a video
-                    and summarize them to obtain a Chapter title. This is a linear text segmentation problem that
-                    requires consideration of the sequence of chapters. Therefore, we've used Kernel Change Point
-                    Detection using Cosine Similarity as our Cost Function to detect segments.
+                    Using a combination of intuitive ML techniques to
+                    automatically identify segments in a video and summarize
+                    them to obtain a Chapter title. This is a linear text
+                    segmentation problem that requires consideration of the
+                    sequence of chapters. Therefore, we've used Kernel Change
+                    Point Detection using Cosine Similarity as our Cost Function
+                    to detect segments.
                   </p>
                 </div>
               </a>
             </div>
 
-            <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
-              <a class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
-                <div class="mt-0">
-                  <h3 class="text-lg font-bold sm:text-xl">
-                    Porfolio Evaluator App
-                  </h3>
-
-                  <p class="mt-2 text-sm text-white-500">
-                    It's an app that allows the user to evaluate their portfolio
-                    using statistical methods such as efficient frontier with
-                    sortino/sharpe ratio which balances the risk and reward for
-                    optimal portfolio allocation. It also contains sentimental
-                    analysis for news headlines and technical analysis for
-                    analyzing a single stock.
-                  </p>
-                </div>
-              </a>
-            </div>
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
               <div class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
                   <h3 class="text-lg font-bold sm:text-xl">Infinite Loop</h3>
 
                   <p class="mt-2 text-sm text-white-500">
-                    Another game I made for a contest. Won the best atmosphere award!
+                    Another game I made for a contest. Won the best atmosphere
+                    award!
                   </p>
                 </div>
               </div>
@@ -245,7 +281,9 @@ function ProjectPage() {
             <div class="rounded-2xl bg-gradient-to-r from-blue-500 via-green-500 to-green-500 p-1 shadow-xl">
               <div class="glass block rounded-xl bg-gray-900 p-4 sm:p-6 lg:p-8 flex h-full w-full">
                 <div class="mt-0">
-                  <h3 class="text-lg font-bold sm:text-xl">Black Galax: Blood Legacy</h3>
+                  <h3 class="text-lg font-bold sm:text-xl">
+                    Black Galax: Blood Legacy
+                  </h3>
 
                   <p class="mt-2 text-sm text-white-500">
                     The origin story of the main Black Galax game.
