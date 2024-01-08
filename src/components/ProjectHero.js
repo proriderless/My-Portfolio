@@ -54,7 +54,7 @@ function ProjectHeroBanner(props) {
         </div>
         <div>
           <h1 class="bg-gradient-to-r from-green-300 via-yellow-500 to-yellow-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Mitra / Mitra-Scheduler V2
+            Mitra / Mitra Bot V2
           </h1>
           <p class="py-6">
             This is a combination of desktop app / Telegram chatbot that I've been developing for a while and still in development. 
@@ -87,7 +87,7 @@ function ProjectHeroBanner(props) {
                 rel="noreferrer"
               >
                 <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
-                Mitra-Scheduler V2 (Milly Reiner) - PRIVATE
+                  Mitra Bot V2 - PRIVATE
                 </span>
               </a>
             </div>
