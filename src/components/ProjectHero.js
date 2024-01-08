@@ -54,7 +54,7 @@ function ProjectHeroBanner(props) {
         </div>
         <div>
           <h1 class="bg-gradient-to-r from-green-300 via-yellow-500 to-yellow-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Mitra / Mitra-Scheduler
+            Mitra / Mitra-Scheduler V2
           </h1>
           <p class="py-6">
             This is a combination of desktop app / Telegram chatbot that I've been developing for a while and still in development. 
@@ -64,7 +64,7 @@ function ProjectHeroBanner(props) {
                 <li>Calendar Notification System - Can notify users via the chatbot</li>
                 <li>Stream Anime</li>
                 <li>Anime Seasons Viewer</li>
-                <li>GPT-4 Chatbot System (Milly Reiner)</li>
+                <li>Chatbot System - Now upgraded V2 with Object & OCR detection.</li>
             </ul>
           </p>
           
@@ -87,7 +87,7 @@ function ProjectHeroBanner(props) {
                 rel="noreferrer"
               >
                 <span class="block rounded-sm bg-black px-8 py-3 text-sm font-medium hover:bg-transparent">
-                Mitra-Scheduler (Milly Reiner) - PRIVATE
+                Mitra-Scheduler V2 (Milly Reiner) - PRIVATE
                 </span>
               </a>
             </div>

@@ -31,7 +31,7 @@ const DrawerLayout = ({ children }) => {
           <li>
             <a href={`/projects`}>Personal Projects</a>
           </li>
-          <div class="dropdown dropdown-hover">
+          <div class="dropdown dropdown-click">
           <li tabindex="0">
             <a>
               My Games

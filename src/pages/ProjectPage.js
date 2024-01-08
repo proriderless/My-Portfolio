@@ -85,7 +85,7 @@ function ProjectPage() {
                   </li>
                   <li>Stream Anime</li>
                   <li>Anime Seasons Viewer</li>
-                  <li>GPT-4 Chatbot System (Milly Reiner)</li>
+                  <li>Chatbot System - Now upgraded V2 with Object & OCR detection.</li>
                 </ul>
               </p>
 
